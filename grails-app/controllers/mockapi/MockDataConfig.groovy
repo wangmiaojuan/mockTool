@@ -12,11 +12,11 @@ class MockDataConfig {
 
     def static mockData = [
             "/equipments"    : [items       : [
-                                        ["id": 1, "name": "YS-006(测试)", "description": "师傅的设备-201410240300002694"],
-                                        ["id": 2, "name": "BS3110100Z", "description": "师傅的设备-201509070400005001"],
-                                        ["id": 3, "name": "新邦JN75/8", "description": "师傅的设备-201509070400005001"]
+                                        ["id": 1, "name": "YS-116(测试)", "description": "设备-20141024"],
+                                        ["id": 2, "name": "BS100Z", "description": "设备-20150907"],
+                                        ["id": 3, "name": "JN75/8", "description": "设备-20150909"]
                                 ]
                                 , totalItems: 3]
-            , "/equipments/1": [obj: ["id": 1, "name": "YS-006(测试)", "description": "师傅的设备-201410240300002694"]]
+            , "/equipments/1": [obj: ["id": 1, "name": "YS-116(测试)", "description": "设备-20141024"]]
     ]
 }
